@@ -9,13 +9,20 @@ It's a simple quiz app
 ### Instructions 
 
 
-Once you installed `git`, run this at the C:/Users/<username>/.
+Once you installed `git`, run this at the C:/Users/username/.
 
 ```git
 git clone https://github.com/Alexis12119/Quiz.git
 ```
 
-**NOTE:** Make sure the files are at the $HOME/Quiz/ -> C:/Users/<username>/Quiz/
+**NOTE:** Make sure the files are at the $HOME/Quiz/ -> C:/Users/username/Quiz/
+
+To be sure, run this command in `cmd`.
+```cmd
+cd %userprofile%
+```
+Then clone the repo.
+
 
 ### Showcase
 
