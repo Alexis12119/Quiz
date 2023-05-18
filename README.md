@@ -23,7 +23,7 @@ git clone https://github.com/Alexis12119/Quiz.git
 
 Download the `zip` file and extract it in the C:/Users/username/.
 
-How?
+How can you download the `zip` file?
 
 #### Step 1: Press the button `<> Code`.
 
