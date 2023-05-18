@@ -1,38 +1,36 @@
-It's a simple quiz app
-
-
-### Requirement for cloning this repo:
-
-* [git](https://git-scm.com/downloads)
+It's a simple GUI Quiz App. 
 
 ### Instructions 
 
-1st way:
+#### 1st way:
 
-Once you installed `git`, run this at the C:/Users/username/.
+* Install [git](https://git-scm.com/downloads).
+* Once you installed `git`, run this at the C:/Users/username/.
 
-```git
+#### Command Prompt (CMD)
+```sh
+cd %userprofile%
 git clone https://github.com/Alexis12119/Quiz.git
 ```
 
-**NOTE:** Make sure the files are at the $HOME/Quiz/ -> C:/Users/username/Quiz/
-
-To be sure, run this command in `cmd`.
-```cmd
-cd %userprofile%
+#### Powershell
+```sh
+cd
+git clone https://github.com/Alexis12119/Quiz.git
 ```
-Then clone the repo.
 
-2nd way:
+#### 2nd way:
 
-Download zip and extract it in the C:/Users/username/.
+Download the `zip` file and extract it in the C:/Users/username/.
 
 How?
 
-Step 1: Press the button `<> Code`.
+#### Step 1: Press the button `<> Code`.
+
 ![Screenshot (738)](https://github.com/Alexis12119/Quiz/assets/74944536/10078cae-99b8-4296-9901-eb394f1d3c9e)
 
-Step 2: Then press the `Download ZIP`
+#### Step 2: Then press the `Download ZIP`
+
 ![Screenshot (737)](https://github.com/Alexis12119/Quiz/assets/74944536/e0d5fabd-4be0-4bba-bc56-7bd107c960c9)
 
 
