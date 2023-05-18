@@ -174,7 +174,7 @@ def show_grade_buttons():
     stacked_widget.addWidget(grade_widget)
     stacked_widget.setCurrentWidget(grade_widget)
 
-def display_article(article_text, max_time, next_button_callback):
+def display_article(article_text, max_time, next_button_callback, questions_callback):
     bg_music = str(Path.home()) + "/Quiz/clock.mp3"
     # Create the media player
     player = QMediaPlayer()
@@ -235,7 +235,7 @@ def display_article(article_text, max_time, next_button_callback):
         if time_remaining == 0:
             timer.stop()
             player.stop()
-            next_button_callback()
+            questions_callback()
         if time_remaining == 10:
             play_background_music()
 
@@ -474,7 +474,7 @@ def display_remedial_article():
     Drugs that prevent pain such as analgesics help lessen the 
     pain sensed.
     """
-    display_article(article_text, 60, show_remedial_start)
+    display_article(article_text, 60, show_remedial_start, show_remedial_questions)
 
 def show_grade_11_start():
     create_start_widget("Start Quiz", show_grade_11_questions)
@@ -602,7 +602,7 @@ def display_grade_11_article():
     large flocks.
     """
 
-    display_article(article_text, 180, show_grade_11_start)
+    display_article(article_text, 300, show_grade_11_start, show_grade_11_questions)
 
 
 def show_grade_12_start():
@@ -730,7 +730,7 @@ def display_grade_12_article():
     alcohol is consumed. Problem drinkers can and are being helped.
     """
 
-    display_article(article_text, 180, show_grade_12_start)
+    display_article(article_text, 300, show_grade_12_start, show_grade_12_questions)
 
 
 app = QApplication([])
