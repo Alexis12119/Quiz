@@ -28,7 +28,7 @@ class LoginWidget(QWidget):
         self.password_input.setFont(QFont("Arial", 12))
         self.login_button = QPushButton("Sign In")
 
-        self.forgot_password_button = QPushButton("Made by Alexis Corporal")
+        self.forgot_password_button = QPushButton("Made by Project Encompass\n\nProgrammer: Alexis Corporal")
         self.login_status = QLabel()
 
         layout = QVBoxLayout(self)
@@ -115,7 +115,7 @@ def show_choice_window():
     choice_layout.setAlignment(Qt.AlignCenter)
     choice_layout.addStretch()
 
-    sri_button = QPushButton("SRI (Silent Recruiting Inventory)")
+    sri_button = QPushButton("SRI (Silent Reading Inventory)")
     sri_button.setStyleSheet("QPushButton { font-size: 18px; width: 500px; height: 200px; background-color: gray; color: white; }"
                              "QPushButton:hover { background-color: lightblue; color: black; }")
     sri_button.clicked.connect(show_grade_buttons)
